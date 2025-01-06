@@ -201,3 +201,169 @@
 </body>
 </html> -->
 
+<!-- <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <p id="demo"></p>
+    <script>
+        let time = new Date().getHours();
+        let greeting;
+        if(time < 10){
+            greeting = "Good morning";
+        }else if(time < 20){
+            greeting = "Good day";
+        }else{
+            greeting = "Good evening";
+        }
+        document.getElementById("demo").innerHTML = greeting;
+    </script>
+</body>
+</html> -->
+
+<!-- <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <p id="demo"></p>
+    <script>
+        switch(new Date().getDay()){
+            case 1:
+                day = "Monday";
+                console.log(day);
+                break;//
+            case 2:
+                day = "Tuesday";
+                console.log(day);
+                break;
+            case 3:
+                day = "Wednesday";
+                console.log(day);
+                break;
+            case 4:
+                day = "Thursday";
+                console.log(day);
+                break;
+            case 5:
+                day = "Friday";
+                console.log(day);
+                break;
+            case 6:
+                day = "Saturday";
+                console.log(day);
+                break;
+            case 7:
+                day = "Sunday";
+                console.log(day);
+                break;
+                default:
+                    day = "Unknown day";
+                    console.log(day);
+        }
+    </script>
+</body>
+</html> -->
+
+<!-- <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <p id="demo">please visit moodbidri</p>
+    <button onclick="myFunction()">click</button>
+<script>
+    function myFunction(){
+        let text = document.getElementById("demo").innerHTML;
+        document.getElementById("demo").innerHTML = text.replace(
+            "moodbidri",
+            "accelerlab");
+    }
+</script>
+</body>
+</html> -->
+
+<!-- <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+    let text="please visit moodbidri";
+    console.log(text);
+    console.log(text.search("moodbidri"));
+    </script>
+</body>
+</html> -->
+
+<!-- <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        try{
+            allert("welcome guest");
+        }
+        catch(err){
+            console.log(err.message);
+        }
+    </script>
+</body>
+</html> -->
+
+<!-- arrow functions allow us to write shorter function syntax -->
+ <!-- arrow function is one of the features of ES6. It allows us to write shorter function syntax. -->
+<!-- function myFunction(x , y){
+    console.log(x * y);
+} -->
+    <!-- const myFunction = (x,y) => x * y;
+    console.log(myFunction(4,3)); -->
+
+<!-- <script>
+    let a = [4,5,8,9];
+    a.map((x) => console.log(x * 2));
+</script> -->
+
+<!-- <script>
+    //destructuring//
+    let a=[10,20,30,40];
+    const [first,second,third,fourth] = a;
+    console.log(first,second,third,fourth);
+</script> -->
+
+<!-- <script>
+    const numbersOne = [1,2,3,4,5];
+    const numbersTwo = [6,7,8,9,10];
+    const numbersCombined = [...numbersOne,...numbersTwo];
+    console.log(numbersCombined);
+</script> -->
+
+<!-- <script>
+    const numbers=[1,2,3,4,5];
+    const [first,second,...rest] = numbers;
+    console.log(first,second,rest);
+</script> -->
+
+<!-- <script>
+    let x =10;
+    x == 10 ? console.log("match") : console.log("not match");
+</script> -->
+
+
