@@ -77,36 +77,36 @@
 
 // export default File
 
-// import React, { useState } from 'react'
+import React, { useState } from 'react'
 
-// function File() {
-//   const [name, setName] = useState('');
+function File() {
+  const [name, setName] = useState('');
 
-//   const handleChange = (e) => {
-//     setName(e.target.value);
-//   }
+  const handleChange = (e) => {
+    setName(e.target.value);
+  }
 
-//   const handleSubmit = (e) => {
-//     e.preventDefault();
-//     localStorage.setItem("name", name);
-//     console.log(name);
-//     console.log("Form submitted");
-//   }
+  const handleSubmit = (e) => {
+    e.preventDefault();
+    localStorage.setItem("name", name);
+    console.log(name);
+    console.log("Form submitted");
+  }
 
-//   return (
-//     <div>
-//       <form onSubmit={handleSubmit}>
-//         <label>name:</label>
-//         <input type="text" name="abc" placeholder="Enter your name" onChange={handleChange}/>
-//         <label>Password:</label>
-//         <input type="password" placeholder="Enter your password"/>
-//         <button type="submit">Submit</button>
-//       </form>
-//     </div>
-//   )
-// }
+  return (
+    <div>
+      <form onSubmit={handleSubmit}>
+        <label>name:</label>
+        <input type="text" name="abc" placeholder="Enter your name" onChange={handleChange}/>
+        <label>Password:</label>
+        <input type="password" placeholder="Enter your password"/>
+        <button type="submit">Submit</button>
+      </form>
+    </div>
+  )
+}
 
-// export default File
+export default File
 
 
 
