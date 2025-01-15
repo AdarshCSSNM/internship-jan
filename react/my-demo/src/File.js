@@ -160,3 +160,62 @@
 // }
 
 // export default File
+
+// import React, { useState } from 'react';
+// import './index.css';
+
+// function File() {
+//   const [num1, setNum1] = useState('');
+//   const [num2, setNum2] = useState('');
+//   const [result, setResult] = useState('');
+
+//   function multiply() {
+//     setResult(parseInt(num1) * parseInt(num2));
+//   }
+
+//   function divide() {
+//     setResult(parseInt(num1) / parseInt(num2));
+//   }
+
+//   function add() {
+//     setResult(parseInt(num1) + parseInt(num2));
+//   }
+
+//   function subtract() {
+//     setResult(parseInt(num1) - parseInt(num2));
+//   }
+
+//   return (
+//     <div className="flex items-center justify-center min-h-screen bg-gray-100 lg:hidden ">
+//       <div className="bg-white p-8 rounded shadow-md w-80">
+//         <h1 className="text-2xl font-bold mb-4 text-center">Calculator</h1>
+//         <input
+//           type="text"
+//           value={num1}
+//           onChange={(e) => setNum1(e.target.value)}
+//           placeholder="Enter first number"
+//           className="w-full p-2 mb-4 border rounded"
+//         />
+//         <input
+//           type="text"
+//           value={num2}
+//           onChange={(e) => setNum2(e.target.value)}
+//           placeholder="Enter second number"
+//           className="w-full p-2 mb-4 border rounded"
+//         />
+//         <div className="flex justify-between mb-4">
+//           <button onClick={add} className="bg-blue-500 text-white px-4 py-2 rounded">Add</button>
+//           <button onClick={subtract} className="bg-blue-500 text-white px-4 py-2 rounded">Subtract</button>
+//         </div>
+//         <div className="flex justify-between mb-4">
+//           <button onClick={multiply} className="bg-blue-500 text-white px-4 py-2 rounded">Multiply</button>
+//           <button onClick={divide} className="bg-blue-500 text-white px-4 py-2 rounded">Divide</button>
+//         </div>
+//         <h1 className="text-xl font-bold text-center">Result: {result}</h1>
+//       </div>
+//     </div>
+//   );
+// }
+
+// export default File;
+

@@ -1,5 +1,5 @@
 // import File from './File';
-import File3 from './File3';
+// import File3 from './File3';
 // import Demo from './Demo';
 // import Test1 from './Test1';
 // import { RxAvatar } from "react-icons/rx";
@@ -7,6 +7,9 @@ import File3 from './File3';
 // import Home from './pages/Home';
 // import Contact from './pages/Contact';
 // import Blogs from './pages/Blogs';
+// import Login from './Login';
+import Data from './Data';
+
 function App() {
   return (
 //     <div>
@@ -18,8 +21,10 @@ function App() {
 //         </Routes>
 //       </BrowserRouter>
     <div>
+      {/* <Login/> */}
+      <Data/>
       {/* <File/> */}
-      <File3/>
+      {/* <File3/> */}
     </div>
 //      {/* <Demo/> */}
 //     {/* <Test1/> */}
