@@ -18,7 +18,7 @@ app.listen(port, ()=>{
     console.log("server listening on port:", port);
 })
 
-app.get('/', (req, res) => {
+app.get('/', (_req, res) => {
     res.send(`
         <!DOCTYPE html>
         <html>
