@@ -19,6 +19,11 @@ export const RESPONSE={
         message: " is already exist",
     },
 
+    access_denied:{
+        code:204,
+        message: "Access Denied",
+    },
+
     unknwn_err:{
         code:500,
         message: "something went wrong",
