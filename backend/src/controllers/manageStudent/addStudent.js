@@ -57,7 +57,6 @@ router.post("/", authenticate, async (req, res) => {
     if (isRollnoExists) {
         return send(res,setErrMsg(RESPONSE.already_exist,"rollno"));;;
     }
-
     await studentModel.create(
         {
       name,
