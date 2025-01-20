@@ -24,6 +24,11 @@ export const RESPONSE={
         message: "Access Denied",
     },
 
+    Multer_error:{
+        code:205,
+        message: "Multer Error",
+    },
+
     unknwn_err:{
         code:500,
         message: "something went wrong",
