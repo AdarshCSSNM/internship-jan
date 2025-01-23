@@ -29,6 +29,11 @@ export const RESPONSE={
         message: "Multer Error",
     },
 
+    not_found:{
+        code:206,
+        message: "not found",
+    },
+
     unknwn_err:{
         code:500,
         message: "something went wrong",
